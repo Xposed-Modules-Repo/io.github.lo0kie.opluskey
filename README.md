@@ -20,16 +20,3 @@
 实测通过：
 
 - **OnePlus PLK110**（ColorOS 17 / Android 17）
-
-## 编译
-
-```bash
-./gradlew assembleDebug
-./gradlew assembleRelease
-```
-
-需要 JDK 17 与 Android SDK。正式签名读根目录 `keystore.properties`（不入库），debug 与 release 共用该签名。
-
-## 许可
-
-[MIT](LICENSE)
